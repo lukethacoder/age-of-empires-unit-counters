@@ -124,7 +124,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       units: UNIT_JSON,
-      unitId: params?.id.replaceAll('-', '_'),
+      unitId: (params?.id as string).replaceAll('-', '_'),
     },
   }
 }

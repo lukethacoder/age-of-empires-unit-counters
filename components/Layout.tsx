@@ -39,7 +39,11 @@ export function Layout({ children }: { children: ReactNode }) {
         >
           <Text>
             Made by&nbsp;
-            <a href='https://github.com/lukethacoder' target='_blank'>
+            <a
+              href='https://github.com/lukethacoder'
+              target='_blank'
+              rel='noreferrer'
+            >
               luke.
             </a>
           </Text>
@@ -47,6 +51,7 @@ export function Layout({ children }: { children: ReactNode }) {
             <a
               href='https://github.com/lukethacoder/aoe-unit-counters'
               target='_blank'
+              rel='noreferrer'
             >
               Github
             </a>
