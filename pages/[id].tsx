@@ -110,7 +110,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   // Get the paths we want to pre-render based on posts
   const paths = data.map((unit) => {
     return {
-      params: { id: `${unit.slug.replaceAll('_', '-')}` },
+      params: { id: `${unit.slug.replace(/_/g, "-")}` },
     }
   })
 
@@ -124,7 +124,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       units: UNIT_JSON,
-      unitId: (params?.id as string).replaceAll('-', '_'),
+      unitId: (params?.id as string).replace(/-/g, "_"),
     },
   }
 }

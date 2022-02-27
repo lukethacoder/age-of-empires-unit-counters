@@ -23,7 +23,7 @@ export function Card({
   const footerColor = useColorModeValue('gray.300', 'gray.900')
 
   return (
-    <NextLink href={`/${unit.slug.replaceAll('_', '-')}`}>
+    <NextLink href={`/${unit.slug.replace(/_/g, "-")}`}>
       <Box
         as='a'
         backgroundColor={cardColor}
