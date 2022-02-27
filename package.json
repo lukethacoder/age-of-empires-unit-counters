@@ -1,7 +1,21 @@
 {
   "name": "aoe-unit-counters",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "keywords": [
+    "age-of-empires",
+    "aoe",
+    "nextjs",
+    "chakra-ui",
+    "react"
+  ],
+  "homepage": "https://github.com/lukethacoder/aoe-unit-counters",
+  "repository": "github:lukethacoder/aoe-unit-counters",
+  "author": {
+    "name": "Luke Secomb",
+    "email": "dev@lukesecomb.digital",
+    "url": "https://lukesecomb.digital"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

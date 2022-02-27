@@ -22,7 +22,7 @@ export function Card({
   const cardColor = useColorModeValue('gray.100', 'gray.700')
 
   return (
-    <NextLink href={`${unit.id}`}>
+    <NextLink href={`/${unit.slug.replaceAll('_', '-')}`}>
       <Box
         as='a'
         backgroundColor={cardColor}

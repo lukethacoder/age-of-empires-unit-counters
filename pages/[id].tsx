@@ -14,7 +14,7 @@ interface UnitPageProps {
 
 const Unit: NextPage<UnitPageProps> = (props) => {
   const { units, unitId } = props
-  const unit: Unit | undefined = units.find((item: Unit) => `${item.id}` === unitId)
+  const unit: Unit | undefined = units.find((item: Unit) => `${item.slug}` === unitId)
 
   return (
     <>
@@ -110,7 +110,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   // Get the paths we want to pre-render based on posts
   const paths = data.map((unit) => {
     return {
-      params: { id: `${unit.id}` },
+      params: { id: `${unit.slug.replaceAll('_', '-')}` },
     }
   })
 
@@ -124,7 +124,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       units: UNIT_JSON,
-      unitId: params?.id,
+      unitId: params?.id.replaceAll('-', '_'),
     },
   }
 }
