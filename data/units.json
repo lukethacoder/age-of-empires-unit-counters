@@ -1,0 +1,4391 @@
+[
+  {
+    "id": 1099,
+    "name": "Huskarl Line",
+    "slug": "huskarl_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Goths",
+      "slug": "goths"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      }
+    ],
+    "units": [
+      {
+        "id": 3438,
+        "name": "Huskarl",
+        "icon_url": "HuskarlIcon-DE.png"
+      },
+      {
+        "id": 3395,
+        "name": "Elite Huskarl",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1106,
+    "name": "Knight Line",
+    "slug": "knight_line",
+    "icon_url": "Knight_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": "Look for the Chieftains unique tech",
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1130
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1108
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      }
+    ],
+    "units": [
+      {
+        "id": 3446,
+        "name": "Knight",
+        "icon_url": "Knight_aoe2DE.png"
+      },
+      {
+        "id": 3367,
+        "name": "Cavalier",
+        "icon_url": "Cavalier_aoe2DE.png"
+      },
+      {
+        "id": 3465,
+        "name": "Paladin",
+        "icon_url": "Paladin_aoe2DE.png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1093,
+    "name": "Elephant Archer Line",
+    "slug": "elephant_archer_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Indians",
+      "slug": "indians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      }
+    ],
+    "units": [
+      {
+        "id": 3378,
+        "name": "Elephant Archer",
+        "icon_url": "ElephantArcherIcon-DE.png"
+      },
+      {
+        "id": 3391,
+        "name": "Elite Elephant Archer",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1125,
+    "name": "Steppe Lancer Line",
+    "slug": "steppe_lancer_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      }
+    ],
+    "units": [
+      {
+        "id": 3480,
+        "name": "Steppe Lancer",
+        "icon_url": "Steppelancericon.png"
+      },
+      {
+        "id": 3415,
+        "name": "Elite Steppe Lancer",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1085,
+    "name": "Cannon Galleon Line",
+    "slug": "cannon_galleon_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1094
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1109
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1086
+      }
+    ],
+    "units": [
+      {
+        "id": 3362,
+        "name": "Cannon Galleon",
+        "icon_url": "Cannon_galleon_aoe2DE.png"
+      },
+      {
+        "id": 3385,
+        "name": "Elite Cannon Galleon",
+        "icon_url": "Elite_cannon_galleon_aoe2de.png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1115,
+    "name": "Militia Line",
+    "slug": "militia_line",
+    "icon_url": "MilitiaDE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1078
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1131
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1088
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1114
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1076
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1105
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1130
+      }
+    ],
+    "units": [
+      {
+        "id": 3460,
+        "name": "Militia",
+        "icon_url": "MilitiaDE.png"
+      },
+      {
+        "id": 3457,
+        "name": "Man At Arms",
+        "icon_url": "Manatarms_aoe2DE.png"
+      },
+      {
+        "id": 3452,
+        "name": "Long Swordman",
+        "icon_url": "Longswordsman_aoe2DE.png"
+      },
+      {
+        "id": 3486,
+        "name": "Two Handed Swordsman",
+        "icon_url": "Twohanded_aoe2DE.png"
+      },
+      {
+        "id": 3369,
+        "name": "Champion",
+        "icon_url": "Champion_aoe2DE.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1113,
+    "name": "Mangonel Line",
+    "slug": "mangonel_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "A mass of Mangudai can quickly take them down, but only with good micro to avoid their shots (which could be dangerous)",
+        "unit_type": "unit_line",
+        "unit_id": 1114
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1122
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      },
+      {
+        "reason": "They will very quickly take each other down, in this case the player with the better micro ability will have an advantage",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1121
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1125
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1108
+      }
+    ],
+    "units": [
+      {
+        "id": 3458,
+        "name": "Mangonel",
+        "icon_url": "Mangonel_aoe2DE.png"
+      },
+      {
+        "id": 3463,
+        "name": "Onager",
+        "icon_url": "Onager_aoe2DE.png"
+      },
+      {
+        "id": 3474,
+        "name": "Siege Onager",
+        "icon_url": "Siege_onager_aoe2DE.png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1100,
+    "name": "Jaguar Warrior Line",
+    "slug": "jaguar_warrior_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Aztecs",
+      "slug": "aztecs"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      }
+    ],
+    "units": [
+      {
+        "id": 3442,
+        "name": "Jaguar Warrior",
+        "icon_url": "JaguarWarriorIcon-DE.png"
+      },
+      {
+        "id": 3396,
+        "name": "Elite Jaguar Warrior",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1126,
+    "name": "Tarkan Line",
+    "slug": "tarkan_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Huns",
+      "slug": "huns"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      }
+    ],
+    "units": [
+      {
+        "id": 3481,
+        "name": "Tarkan",
+        "icon_url": "TarkanIcon-DE.png"
+      },
+      {
+        "id": 3416,
+        "name": "Elite Tarkan",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1077,
+    "name": "Archer Line",
+    "slug": "archer_line",
+    "icon_url": "Archer_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": "Excellent if they're able to fire safely from a distance at masses of Archers",
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1121
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their very high pierce armor",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1118
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1131
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": "When put in front of your other units, they will \"absorb\" a lot of their arrows or force your opponent to manually target your other units (which is very inefficient)",
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1097
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1093
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      }
+    ],
+    "units": [
+      {
+        "id": 3352,
+        "name": "Archer",
+        "icon_url": "Archer_aoe2DE.png"
+      },
+      {
+        "id": 3373,
+        "name": "Crossbowman",
+        "icon_url": "Crossbowman_aoe2DE.png"
+      },
+      {
+        "id": 3351,
+        "name": "Arbalest",
+        "icon_url": "Arbalester_aoe2DE.png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1091,
+    "name": "Demolition Raft Line",
+    "slug": "demolition_raft_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3374,
+        "name": "Demolition Raft",
+        "icon_url": "Demoraft_aoe2DE.png"
+      },
+      {
+        "id": 3375,
+        "name": "Demolition Ship",
+        "icon_url": "Demoship_aoe2DE.png"
+      },
+      {
+        "id": 3436,
+        "name": "Heavy Demolition Ship",
+        "icon_url": "Heavydemoship_aoe2de.png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1098,
+    "name": "Genoese Crossbowman Line",
+    "slug": "genoese_crossbowman_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Italians",
+      "slug": "italians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      }
+    ],
+    "units": [
+      {
+        "id": 3431,
+        "name": "Genoese Crossbowman",
+        "icon_url": "GenoeseCrossbowmanIcon-DE.png"
+      },
+      {
+        "id": 3393,
+        "name": "Elite Genoese Crossbowman",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1117,
+    "name": "Plumed Archer Line",
+    "slug": "plumed_archer_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Mayans",
+      "slug": "mayans"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1118
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1131
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": "When put in front of your other units, they will \"absorb\" a lot of their arrows or force your opponent to manually target your other units (which is very inefficient)",
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      }
+    ],
+    "units": [
+      {
+        "id": 3468,
+        "name": "Plumed Archer",
+        "icon_url": "PlumedArcherIcon-DE.png"
+      },
+      {
+        "id": 3410,
+        "name": "Elite Plumed Archer",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1134,
+    "name": "Coustillier Line",
+    "slug": "coustillier_line",
+    "icon_url": "Aoe2-icon-coustillier.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Burgundians",
+      "slug": "burgundians"
+    },
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3493,
+        "name": "Coustillier",
+        "icon_url": "Aoe2-icon-coustillier.png"
+      },
+      {
+        "id": 3501,
+        "name": "Elite Coustillier",
+        "icon_url": "Aoe2-icon-coustillier.png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1083,
+    "name": "Camel Archer Line",
+    "slug": "camel_archer_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Berbers",
+      "slug": "berbers"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their very high pierce armor",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3360,
+        "name": "Camel Archer",
+        "icon_url": "CamelArcherIcon-DE.png"
+      },
+      {
+        "id": 3384,
+        "name": "Elite Camel Archer",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1088,
+    "name": "Cavalry Archer Line",
+    "slug": "cavalry_archer_line",
+    "icon_url": "Cavalryarcher_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1097
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1118
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their very high pierce armor, but they will have some trouble chasing down Cavalry Archers",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      }
+    ],
+    "units": [
+      {
+        "id": 3368,
+        "name": "Cavalry Archer",
+        "icon_url": "Cavalryarcher_aoe2DE.png"
+      },
+      {
+        "id": 3435,
+        "name": "Heavy Cavalry Archer",
+        "icon_url": "Heavycavalryarcher_aoe2de.png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1114,
+    "name": "Mangudai Line",
+    "slug": "mangudai_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Mongols",
+      "slug": "mongols"
+    },
+    "unit_counters": [
+      {
+        "reason": "Spearmen trade cost effectively with Mangudai, but you will need a lot of them to avoid getting microed",
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": "Skirmishers trade cost effectively with Mangudai and as a ranged unit they don't suffer as much against micro",
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their very high pierce armor",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3459,
+        "name": "Mangudai",
+        "icon_url": "MangudaiIcon-DE.png"
+      },
+      {
+        "id": 3408,
+        "name": "Elite Mangudai",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1130,
+    "name": "War Elephant Line",
+    "slug": "war_elephant_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Persians",
+      "slug": "persians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      }
+    ],
+    "units": [
+      {
+        "id": 3488,
+        "name": "War Elephant",
+        "icon_url": "WarElephantIcon-DE.png"
+      },
+      {
+        "id": 3420,
+        "name": "Elite War Elephant",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1120,
+    "name": "Scorpion Line",
+    "slug": "scorpion_line",
+    "icon_url": "Scorpion_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1114
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1122
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1121
+      }
+    ],
+    "units": [
+      {
+        "id": 3471,
+        "name": "Scorpion",
+        "icon_url": "Scorpion_aoe2DE.png"
+      },
+      {
+        "id": 3437,
+        "name": "Heavy Scorpion",
+        "icon_url": "Heavyscorpion_aoe2DE.png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1104,
+    "name": "Keshik Line",
+    "slug": "keshik_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Tatars",
+      "slug": "tatars"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      }
+    ],
+    "units": [
+      {
+        "id": 3447,
+        "name": "Keshik",
+        "icon_url": "Keshikicon.png"
+      },
+      {
+        "id": 3400,
+        "name": "Elite Keshik",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1135,
+    "name": "Flemish Militia Line",
+    "slug": "flemish_militia_line",
+    "icon_url": "Aoe2-icon-flemish-militia.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Burgundians",
+      "slug": "burgundians"
+    },
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3494,
+        "name": "Flemish Militia",
+        "icon_url": "Aoe2-icon-flemish-militia.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1128,
+    "name": "Throwing Axeman Line",
+    "slug": "throwing_axeman_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Franks",
+      "slug": "franks"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      }
+    ],
+    "units": [
+      {
+        "id": 3483,
+        "name": "Throwing Axeman",
+        "icon_url": "ThrowingAxemanIcon-DE.png"
+      },
+      {
+        "id": 3418,
+        "name": "Elite Throwing Axeman",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1124,
+    "name": "Spearmen Line",
+    "slug": "spearmen_line",
+    "icon_url": "Spearman_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1122
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1103
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      }
+    ],
+    "units": [
+      {
+        "id": 3479,
+        "name": "Spearman",
+        "icon_url": "Spearman_aoe2DE.png"
+      },
+      {
+        "id": 3467,
+        "name": "Pikeman",
+        "icon_url": "pikeman.png"
+      },
+      {
+        "id": 3432,
+        "name": "Halberdier",
+        "icon_url": "Halberdier_aoe2DE.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1102,
+    "name": "Kamayuk Line",
+    "slug": "kamayuk_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Incas",
+      "slug": "incas"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      }
+    ],
+    "units": [
+      {
+        "id": 3444,
+        "name": "Kamayuk",
+        "icon_url": "KamayukIcon-DE.png"
+      },
+      {
+        "id": 3398,
+        "name": "Elite Kamayuk",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1097,
+    "name": "Genitour Line",
+    "slug": "genitour_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Berbers",
+      "slug": "berbers"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3430,
+        "name": "Genitour",
+        "icon_url": "GenitourIcon-DE.png"
+      },
+      {
+        "id": 3394,
+        "name": "Elite Genitour",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1089,
+    "name": "Chu Ko Nu Line",
+    "slug": "chu_ko_nu_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Chinese",
+      "slug": "chinese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their high pierce armor, they're just slightly more vulnerable to Chu Ko Nu thanks to their multiple arrows",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1097
+      }
+    ],
+    "units": [
+      {
+        "id": 3370,
+        "name": "Chu Ko Nu",
+        "icon_url": "ChukoNuIcon-DE.png"
+      },
+      {
+        "id": 3388,
+        "name": "Elite Chu Ko Nu",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1121,
+    "name": "Scout Cavalry Line",
+    "slug": "scout_cavalry_line",
+    "icon_url": "Scoutcavalry_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1125
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      }
+    ],
+    "units": [
+      {
+        "id": 3472,
+        "name": "Scout Cavalry",
+        "icon_url": "Scoutcavalry_aoe2DE.png"
+      },
+      {
+        "id": 3451,
+        "name": "Light Cavalry",
+        "icon_url": "Lightcavalry_aoe2DE.png"
+      },
+      {
+        "id": 3441,
+        "name": "Hussar",
+        "icon_url": "Hussar_aoe2DE.png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1119,
+    "name": "Samurai Line",
+    "slug": "samurai_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Japanese",
+      "slug": "japanese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      }
+    ],
+    "units": [
+      {
+        "id": 3470,
+        "name": "Samurai",
+        "icon_url": "SamuraiIcon-DE.png"
+      },
+      {
+        "id": 3412,
+        "name": "Elite Samurai",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1080,
+    "name": "Battle Elephant Line",
+    "slug": "battle_elephant_line",
+    "icon_url": "Battle_elephant_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1088
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      }
+    ],
+    "units": [
+      {
+        "id": 3355,
+        "name": "Battle Elephant",
+        "icon_url": "Battle_elephant_aoe2DE.png"
+      },
+      {
+        "id": 3381,
+        "name": "Elite Battle Elephant",
+        "icon_url": "Elite_battle_elephant_aoe2DE.png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1110,
+    "name": "Longbowman Line",
+    "slug": "longbowman_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Britons",
+      "slug": "britons"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro. The massive range on Longbowmen makes it even more difficult to get close enough.",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1097
+      },
+      {
+        "reason": "When put in front of your other units, they will \"absorb\" a lot of their arrows or force your opponent to manually target your other units (which is very inefficient)",
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      }
+    ],
+    "units": [
+      {
+        "id": 3454,
+        "name": "Longbowman",
+        "icon_url": "LongbowmanIcon-DE.png"
+      },
+      {
+        "id": 3405,
+        "name": "Elite Longbowman",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1086,
+    "name": "Caravel Line",
+    "slug": "caravel_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Portuguese",
+      "slug": "portuguese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1094
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1109
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1129
+      }
+    ],
+    "units": [
+      {
+        "id": 3364,
+        "name": "Caravel",
+        "icon_url": "CaravelIcon-DE.png"
+      },
+      {
+        "id": 3386,
+        "name": "Elite Caravel",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1079,
+    "name": "Battering Ram Line",
+    "slug": "battering_ram_line",
+    "icon_url": "Battering_ram_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3466
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": "Villagers can destroy Rams fairly quickly, but usually this will only work if your opponent is not defending them with other units",
+        "unit_type": "unit",
+        "unit_id": 3487
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1114
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1122
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1103
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1076
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1121
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1105
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1104
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1108
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1107
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      }
+    ],
+    "units": [
+      {
+        "id": 3354,
+        "name": "Battering Ram",
+        "icon_url": "Battering_ram_aoe2DE.png"
+      },
+      {
+        "id": 3363,
+        "name": "Capped Ram",
+        "icon_url": "Capped_ram_aoe2DE.png"
+      },
+      {
+        "id": 3475,
+        "name": "Siege Ram",
+        "icon_url": "Siege_ram_aoe2DE.png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1107,
+    "name": "Konnik Line",
+    "slug": "konnik_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Bulgarians",
+      "slug": "bulgarians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      }
+    ],
+    "units": [
+      {
+        "id": 3448,
+        "name": "Konnik",
+        "icon_url": "Konnikicon.png"
+      },
+      {
+        "id": 3402,
+        "name": "Elite Konnik",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1096,
+    "name": "Gbeto Line",
+    "slug": "gbeto_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Malians",
+      "slug": "malians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      }
+    ],
+    "units": [
+      {
+        "id": 3429,
+        "name": "Gbeto",
+        "icon_url": "GbetoIcon-DE.png"
+      },
+      {
+        "id": 3392,
+        "name": "Elite Gbeto",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1076,
+    "name": "Arambai Line",
+    "slug": "arambai_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Burmese",
+      "slug": "burmese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1088
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3350,
+        "name": "Arambai",
+        "icon_url": "Arambaiicon-DE.png"
+      },
+      {
+        "id": 3379,
+        "name": "Elite Arambai",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1116,
+    "name": "Organ Gun Line",
+    "slug": "organ_gun_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Portuguese",
+      "slug": "portuguese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3464,
+        "name": "Organ Gun",
+        "icon_url": "OrganGunIcon-DE.png"
+      },
+      {
+        "id": 3409,
+        "name": "Elite Organ Gun",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1078,
+    "name": "Ballista Elephant Line",
+    "slug": "ballista_elephant_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Khmer",
+      "slug": "khmer"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": "Skirmishers are excellent against almost all types of Archers and Cavalry Archers.",
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1114
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      }
+    ],
+    "units": [
+      {
+        "id": 3353,
+        "name": "Ballista Elephant",
+        "icon_url": "Ballistaelephanticon-DE.png"
+      },
+      {
+        "id": 3380,
+        "name": "Elite Ballista Elephant",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1132,
+    "name": "Woad Raider Line",
+    "slug": "woad_raider_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Celts",
+      "slug": "celts"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      }
+    ],
+    "units": [
+      {
+        "id": 3491,
+        "name": "Woad Raider",
+        "icon_url": "WoadRaiderIcon-DE.png"
+      },
+      {
+        "id": 3422,
+        "name": "Elite Woad Raider",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1103,
+    "name": "Karambit Warrior Line",
+    "slug": "karambit_warrior_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Malay",
+      "slug": "malay"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      }
+    ],
+    "units": [
+      {
+        "id": 3445,
+        "name": "Karambit Warrior",
+        "icon_url": "Karambitwarrioricon-DE.png"
+      },
+      {
+        "id": 3399,
+        "name": "Elite Karambit Warrior",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1123,
+    "name": "Skirmisher Line",
+    "slug": "skirmisher_line",
+    "icon_url": "Skirmisher_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1121
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1080
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1125
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1130
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1126
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1111
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1107
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1108
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1104
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1122
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1096
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1103
+      }
+    ],
+    "units": [
+      {
+        "id": 3477,
+        "name": "Skirmisher",
+        "icon_url": "Skirmisher_aoe2DE.png"
+      },
+      {
+        "id": 3414,
+        "name": "Elite Skirmisher",
+        "icon_url": "Elite_skirmisher_aoe2DE.png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1133,
+    "name": "Hussite Line",
+    "slug": "hussite_line",
+    "icon_url": "Aoe2-icon-hussitewagon.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Bohemians",
+      "slug": "bohemians"
+    },
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3495,
+        "name": "Hussite Wagon",
+        "icon_url": "Aoe2-icon-hussitewagon.png"
+      },
+      {
+        "id": 3500,
+        "name": "Elite Hussite Wagon",
+        "icon_url": "Aoe2-icon-hussitewagon.png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1094,
+    "name": "Fire Ship Line",
+    "slug": "fire_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1091
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1129
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1109
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1078
+      }
+    ],
+    "units": [
+      {
+        "id": 3426,
+        "name": "Fire Galley",
+        "icon_url": "Fire_galley_aoe2DE.png"
+      },
+      {
+        "id": 3424,
+        "name": "Fire Ship",
+        "icon_url": "Fireship_aoe2DE.png"
+      },
+      {
+        "id": 3423,
+        "name": "Fast Fire Ship",
+        "icon_url": "Fastfireship_aoe2DE.png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1129,
+    "name": "Turtle Ship Line",
+    "slug": "turtle_ship_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Koreans",
+      "slug": "koreans"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3484
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      }
+    ],
+    "units": [
+      {
+        "id": 3485,
+        "name": "Turtle Ship",
+        "icon_url": "TurtleShipIcon-DE.png"
+      },
+      {
+        "id": 3419,
+        "name": "Elite Turtle Ship",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1084,
+    "name": "Camel Rider Line",
+    "slug": "camel_line",
+    "icon_url": "Camelrider_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3425
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1118
+      }
+    ],
+    "units": [
+      {
+        "id": 3361,
+        "name": "Camel Rider",
+        "icon_url": "Camelrider_aoe2DE.png"
+      },
+      {
+        "id": 3434,
+        "name": "Heavy Camel Rider",
+        "icon_url": "heavycamelriderDE.png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1131,
+    "name": "War Wagon Line",
+    "slug": "war_wagon_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Koreans",
+      "slug": "koreans"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      }
+    ],
+    "units": [
+      {
+        "id": 3490,
+        "name": "War Wagon",
+        "icon_url": "WarWagonIcon-DE.png"
+      },
+      {
+        "id": 3421,
+        "name": "Elite War Wagon",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1087,
+    "name": "Cataphract Line",
+    "slug": "cataphract_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Byzantines",
+      "slug": "byzantines"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1130
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      }
+    ],
+    "units": [
+      {
+        "id": 3366,
+        "name": "Cataphract",
+        "icon_url": "CataphractIcon-DE.png"
+      },
+      {
+        "id": 3387,
+        "name": "Elite Cataphract",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1112,
+    "name": "Mameluke Line",
+    "slug": "mameluke_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Saracens",
+      "slug": "saracens"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      }
+    ],
+    "units": [
+      {
+        "id": 3456,
+        "name": "Mameluke",
+        "icon_url": "MamelukeIcon-DE.png"
+      },
+      {
+        "id": 3407,
+        "name": "Elite Mameluke",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1108,
+    "name": "Leitis Line",
+    "slug": "leitis_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Lithuanians",
+      "slug": "lithuanians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      }
+    ],
+    "units": [
+      {
+        "id": 3450,
+        "name": "Leitis",
+        "icon_url": "Leitisicon.png"
+      },
+      {
+        "id": 3403,
+        "name": "Elite Leitis",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1111,
+    "name": "Magyar Huszar Line",
+    "slug": "magyar_huszar_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Magyars",
+      "slug": "magyars"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      }
+    ],
+    "units": [
+      {
+        "id": 3455,
+        "name": "Magyar Huszar",
+        "icon_url": "MagyarHuszarIcon-DE.png"
+      },
+      {
+        "id": 3406,
+        "name": "Elite Magyar Huszar",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1136,
+    "name": "Serjeant Line",
+    "slug": "serjeant_line",
+    "icon_url": "Aoe2-icon-serjeant.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Sicilians",
+      "slug": "sicilians"
+    },
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3492,
+        "name": "Serjeant",
+        "icon_url": "Aoe2-icon-serjeant.png"
+      },
+      {
+        "id": 3502,
+        "name": "Elite Serjeant",
+        "icon_url": "Aoe2-icon-serjeant.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1082,
+    "name": "Boyar Line",
+    "slug": "boyar_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Slavs",
+      "slug": "slavs"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1112
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1130
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": "Look for the Chieftains unique tech",
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      }
+    ],
+    "units": [
+      {
+        "id": 3358,
+        "name": "Boyar",
+        "icon_url": "BoyarIcon-DE.png"
+      },
+      {
+        "id": 3383,
+        "name": "Elite Boyar",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry"
+  },
+  {
+    "id": 1105,
+    "name": "Kipchak Line",
+    "slug": "kipchak_line",
+    "icon_url": "Kipchakicon.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Cumans",
+      "slug": "cumans"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1084
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1083
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      }
+    ],
+    "units": [
+      {
+        "id": 3449,
+        "name": "Kipchak",
+        "icon_url": "Kipchakicon.png"
+      },
+      {
+        "id": 3401,
+        "name": "Elite Kipchak",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1122,
+    "name": "Shotel Warrior Line",
+    "slug": "shotel_warrior_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Ethiopians",
+      "slug": "ethiopians"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1088
+      }
+    ],
+    "units": [
+      {
+        "id": 3473,
+        "name": "Shotel Warrior",
+        "icon_url": "Shotelwarrioricon-DE.png"
+      },
+      {
+        "id": 3413,
+        "name": "Elite Shotel Warrior",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1090,
+    "name": "Conquistador Line",
+    "slug": "conquistador_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Spanish",
+      "slug": "spanish"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1124
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1106
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1102
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1098
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      }
+    ],
+    "units": [
+      {
+        "id": 3372,
+        "name": "Conquistador",
+        "icon_url": "ConquistadorIcon-DE.png"
+      },
+      {
+        "id": 3389,
+        "name": "Elite Conquistador",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "cavalry_archers"
+  },
+  {
+    "id": 1118,
+    "name": "Rattan Archer Line",
+    "slug": "rattan_archer_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Vietnamese",
+      "slug": "vietnamese"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": "Mangonel shots can be devastating against any masses of archers, but their shots can be avoided with good micro",
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1092
+      },
+      {
+        "reason": "Huskarls are nearly immune to arrow fire due to their very high pierce armor",
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": "When put in front of your other units, they will \"absorb\" a lot of their arrows or force your opponent to manually target your other units (which is very inefficient)",
+        "unit_type": "unit_line",
+        "unit_id": 1079
+      }
+    ],
+    "units": [
+      {
+        "id": 3469,
+        "name": "Rattan Archer",
+        "icon_url": "Rattanarchericon-DE.png"
+      },
+      {
+        "id": 3411,
+        "name": "Elite Rattan Archer",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1095,
+    "name": "Galley Line",
+    "slug": "galley_line",
+    "icon_url": null,
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": "Arrow fire from Castles and other defensive structures like Towers is very effective",
+        "unit_type": "unit",
+        "unit_id": 3365
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1129
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1109
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1094
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1078
+      }
+    ],
+    "units": [
+      {
+        "id": 3428,
+        "name": "Galley",
+        "icon_url": "Galley_aoe2DE.png"
+      },
+      {
+        "id": 3489,
+        "name": "War Galley",
+        "icon_url": "War_galley_aoe2DE.png"
+      },
+      {
+        "id": 3427,
+        "name": "Galleon",
+        "icon_url": "Galleon_aoe2DE.png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1127,
+    "name": "Teutonic Knight Line",
+    "slug": "teutonic_knight_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Teutons",
+      "slug": "teutons"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3462
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3461
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1118
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1089
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      }
+    ],
+    "units": [
+      {
+        "id": 3482,
+        "name": "Teutonic Knight",
+        "icon_url": "TeutonicKnightIcon-DE.png"
+      },
+      {
+        "id": 3417,
+        "name": "Elite Teutonic Knight",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1101,
+    "name": "Janissary Line",
+    "slug": "janissary_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Turks",
+      "slug": "turks"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3371
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1123
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1120
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      }
+    ],
+    "units": [
+      {
+        "id": 3443,
+        "name": "Janissary",
+        "icon_url": "JanissaryIcon-DE.png"
+      },
+      {
+        "id": 3397,
+        "name": "Elite Janissary",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "archers"
+  },
+  {
+    "id": 1092,
+    "name": "Eagle Line",
+    "slug": "eagle_line",
+    "icon_url": "Eaglescout_aoe2DE.png",
+    "is_unique": false,
+    "civilization": null,
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1115
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1132
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1128
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1099
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1081
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1103
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      }
+    ],
+    "units": [
+      {
+        "id": 3376,
+        "name": "Eagle Scout",
+        "icon_url": "Eaglescout_aoe2DE.png"
+      },
+      {
+        "id": 3377,
+        "name": "Eagle Warrior",
+        "icon_url": "Eaglewarrior_aoe2DE.png"
+      },
+      {
+        "id": 3390,
+        "name": "Elite Eagle Warrior",
+        "icon_url": "Eliteeaglewarrior_aoe2DE.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1109,
+    "name": "Longboat Line",
+    "slug": "longboat_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Vikings",
+      "slug": "vikings"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3357
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1113
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1094
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1129
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1119
+      }
+    ],
+    "units": [
+      {
+        "id": 3453,
+        "name": "Longboat",
+        "icon_url": "LongboatIcon-DE.png"
+      },
+      {
+        "id": 3404,
+        "name": "Elite Longboat",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "naval"
+  },
+  {
+    "id": 1137,
+    "name": "Obuch Line",
+    "slug": "obuch_line",
+    "icon_url": "Aoe2-icon-Obuch.png",
+    "is_unique": true,
+    "civilization": {
+      "name": "Poles",
+      "slug": "poles"
+    },
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3496,
+        "name": "Obuch",
+        "icon_url": "Aoe2-icon-Obuch.png"
+      },
+      {
+        "id": 3497,
+        "name": "Elite Obuch",
+        "icon_url": "Aoe2-icon-Obuch.png"
+      }
+    ],
+    "category": "infantry"
+  },
+  {
+    "id": 1138,
+    "name": "Bombard Cannon Line",
+    "slug": "bombard_cannon_line",
+    "icon_url": "Bombard_cannon_aoe2DE.png",
+    "is_unique": null,
+    "civilization": null,
+    "unit_counters": [],
+    "units": [
+      {
+        "id": 3357,
+        "name": "Bombard Cannon",
+        "icon_url": "Bombard_cannon_aoe2DE.png"
+      }
+    ],
+    "category": "siege"
+  },
+  {
+    "id": 1081,
+    "name": "Berserk Line",
+    "slug": "berserk_line",
+    "icon_url": null,
+    "is_unique": true,
+    "civilization": {
+      "name": "Vikings",
+      "slug": "vikings"
+    },
+    "unit_counters": [
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3433
+      },
+      {
+        "reason": null,
+        "unit_type": "unit",
+        "unit_id": 3478
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1101
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1090
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1117
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1127
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1087
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1100
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1082
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1077
+      },
+      {
+        "reason": null,
+        "unit_type": "unit_line",
+        "unit_id": 1110
+      }
+    ],
+    "units": [
+      {
+        "id": 3356,
+        "name": "Berserk",
+        "icon_url": "BerserkIcon-DE.png"
+      },
+      {
+        "id": 3382,
+        "name": "Elite Berserk",
+        "icon_url": ".png"
+      }
+    ],
+    "category": "infantry"
+  }
+]
