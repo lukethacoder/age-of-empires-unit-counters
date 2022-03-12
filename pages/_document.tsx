@@ -4,7 +4,7 @@ import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 export default class _Document extends NextDocument {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head />
         <body>
           <ColorModeScript initialColorMode="dark" />

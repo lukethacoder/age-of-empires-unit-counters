@@ -40,7 +40,7 @@ export function Layout({ children }: { children: ReactNode }) {
           <Text>
             Made by&nbsp;
             <a
-              href='https://github.com/lukethacoder'
+              href='https://lukesecomb.digital'
               target='_blank'
               rel='noreferrer'
             >
@@ -49,7 +49,7 @@ export function Layout({ children }: { children: ReactNode }) {
           </Text>
           <Text>
             <a
-              href='https://github.com/lukethacoder/aoe-unit-counters'
+              href='https://github.com/lukethacoder/age-of-empires-unit-counters'
               target='_blank'
               rel='noreferrer'
             >

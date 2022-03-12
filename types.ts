@@ -1,3 +1,12 @@
+export interface UnitsByType {
+  infantry: Unit[]
+  cavalry: Unit[]
+  archers: Unit[]
+  cavalry_archers: Unit[]
+  siege: Unit[]
+  naval: Unit[]
+}
+
 export interface Unit {
   id: number
   name: string

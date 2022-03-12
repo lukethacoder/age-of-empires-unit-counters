@@ -14,21 +14,59 @@ interface UnitPageProps {
 
 const Unit: NextPage<UnitPageProps> = (props) => {
   const { units, unitId } = props
-  const unit: Unit | undefined = units.find((item: Unit) => `${item.slug}` === unitId)
+  const unit: Unit | undefined = units.find(
+    (item: Unit) => `${item.slug}` === unitId
+  )
 
   return (
     <>
       <Head
         title={`${unit?.name} | Age of Empires: Unit Counters`}
         description={`Counters for ${unit?.name} | Age of Empires: Unit Counters`}
-        favicon={`${IMAGE_BASE_PATH}/${unit?.icon_url || unit?.units?.[0].icon_url }`}
+        favicon={`${IMAGE_BASE_PATH}/${
+          unit?.icon_url || unit?.units?.[0].icon_url
+        }`}
       />
       <Layout>
         <Heading pb='1'>{unit?.name}</Heading>
-        <Heading fontSize='sm' pb='3'>
-          {unit?.category && capitalize(unit.category).replace('_', ' ')}
-          {unit?.is_unique && unit?.civilization && ` - Unique to ${unit?.civilization.name}`}
-        </Heading>
+
+        <Flex pb='3' flexDirection='column'>
+
+          <Flex alignItems='center'>
+            <Heading fontSize={['sm', null, 'md']}>
+              {unit?.category && capitalize(unit.category).replace('_', ' ')}
+            </Heading>
+            {unit?.is_unique && unit?.civilization && (
+              <Text
+                fontSize={['sm', null, 'md']}
+                color='gray.600'
+                fontWeight='semibold'
+              >
+                &nbsp;- Unique to {unit?.civilization.name}
+              </Text>
+            )}
+          </Flex>
+
+          {
+            unit?.units && unit?.units.length > 1 ? (
+              <Flex flexWrap='wrap'>
+                {
+                  unit.units.map((item, key) => (
+                    <Text
+                      key={`${key}_${item.name}`}
+                      fontSize={['xs', 'xs', 'sm']}
+                      color='gray.500'
+                      fontWeight='semibold'
+                      whiteSpace='nowrap'
+                    >
+                      {key !== 0 && `/ `}{item.name}&nbsp;
+                    </Text>
+                  ))
+                }
+              </Flex>
+            ) : null
+          }
+        </Flex>
 
         <Box>
           {unit?.units ? (
@@ -66,7 +104,9 @@ const Unit: NextPage<UnitPageProps> = (props) => {
         </Box>
 
         <Box>
-          <Text fontSize='md' pt='4' pb='2'>Countered by: </Text>
+          <Text fontSize='md' pt='4' pb='2'>
+            Countered by:{' '}
+          </Text>
 
           {unit?.unit_counters ? (
             <List>
@@ -83,7 +123,10 @@ const Unit: NextPage<UnitPageProps> = (props) => {
 
                 return (
                   <ListItem key={item.unit_id} marginBottom='4'>
-                    <Card unit={unit_counter} footerText={item.reason ? item.reason : ''}/>
+                    <Card
+                      unit={unit_counter}
+                      footerText={item.reason ? item.reason : ''}
+                    />
                   </ListItem>
                 )
               })}
@@ -95,7 +138,6 @@ const Unit: NextPage<UnitPageProps> = (props) => {
 
         {/* <Img */}
       </Layout>
-    
     </>
   )
 }
@@ -110,7 +152,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   // Get the paths we want to pre-render based on posts
   const paths = data.map((unit) => {
     return {
-      params: { id: `${unit.slug.replace(/_/g, "-")}` },
+      params: { id: `${unit.slug.replace(/_/g, '-')}` },
     }
   })
 
@@ -124,7 +166,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       units: UNIT_JSON,
-      unitId: (params?.id as string).replace(/-/g, "_"),
+      unitId: (params?.id as string).replace(/-/g, '_'),
     },
   }
 }

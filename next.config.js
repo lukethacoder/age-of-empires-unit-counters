@@ -8,6 +8,6 @@ module.exports = withPWA({
     runtimeCaching,
   },
   images: {
-    domains: ['aoecounters.vercel.app'],
+    domains: ['age-of-empires-unit-counters.vercel.app'],
   },
 })

@@ -23,7 +23,7 @@ export function Card({
   const footerColor = useColorModeValue('gray.300', 'gray.900')
 
   return (
-    <NextLink href={`/${unit.slug.replace(/_/g, "-")}`}>
+    <NextLink href={`/${unit.slug.replace(/_/g, '-')}`} passHref>
       <Box
         as='a'
         backgroundColor={cardColor}
@@ -34,17 +34,39 @@ export function Card({
         flexDirection='column'
       >
         <Flex justifyContent='space-between'>
-          <Flex px='4' py='2' align='center' justify='flex-start' w='100%'>
-            <Text fontSize={['sm', null, 'md']}>{unit.name}</Text>
-            {unit.is_unique && unit.civilization && (
-              <Text
-                fontSize={['sm', null, 'md']}
-                color='gray.600'
-                fontWeight='semibold'
-              >
-                &nbsp;- Unique to {unit.civilization.name}
-              </Text>
-            )}
+          <Flex px='4' py='2' w='100%' flexDirection='column'>
+            <Flex align='center' justify='flex-start' w='100%'>
+              <Text fontSize={['sm', null, 'md']}>{unit.name}</Text>
+              {unit.is_unique && unit.civilization && (
+                <Text
+                  fontSize={['sm', null, 'md']}
+                  color='gray.600'
+                  fontWeight='semibold'
+                >
+                  &nbsp;- Unique to {unit.civilization.name}
+                </Text>
+              )}
+            </Flex>
+            {
+              unit.units && unit.units.length > 1 ? (
+                <Flex flexWrap='wrap'>
+                  {
+                    unit.units.map((item, key) => (
+                      <Text
+                        key={`${key}_${item.name}`}
+                        fontSize={['xs', 'xs', 'sm']}
+                        color='gray.500'
+                        fontWeight='semibold'
+                        whiteSpace='nowrap'
+                      >
+                        {key !== 0 && `/ `}{item.name}&nbsp;
+                      </Text>
+                    ))
+                  }
+                </Flex>
+              ) : null
+            }
+
           </Flex>
           {unit.units ? (
             <Flex>
@@ -52,7 +74,7 @@ export function Card({
                 item.icon_url && item.icon_url !== '.png' ? (
                   <Box
                     key={item.id}
-                    h='56px'
+                    h={['56px', null, '64px']}
                     position='relative'
                     overflow='hidden'
                   >
